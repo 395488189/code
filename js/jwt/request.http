@@ -1,0 +1,10 @@
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+  "username": "帕岛男模", "password": "投币点赞"
+}
+
+###
+GET http://localhost:3000/afterlogin
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IuW4leWym-eUt-aooSIsImlhdCI6MTY5NjkzMjE0NywiZXhwIjoxNjk2OTMyMTc3fQ._BVBO-wUOmVfF5BdFM2XVbdlj3jMyg46FwMH9Mj2MAg
